@@ -16,3 +16,4 @@
 **email** varchar(255) NOT NULL, <br/>
 **note** text NOT NULL <br/>
 
+![alt text](https://github.com/jcurly/crudOOP/blob/master/crud.JPG)
