@@ -1,6 +1,8 @@
 
 # Simple crud system without any style
 
+**Crud system -> simple php application performing CRUD(create, read, update, delete) operations on a database**
+
 ## DATABASE: 
 
 ###### Name: 
