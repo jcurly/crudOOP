@@ -117,9 +117,9 @@ class Contact
             $query = $PDO->prepare('SELECT * FROM users WHERE id=?');
             $query->execute([$id]);
             $query->setFetchMode(PDO::FETCH_ASSOC);
-//            $result = $query->fetchAll();
+
             $result = $query->fetch();
-//            return new Contact($result[0]['name'], $result[0]['phone'], $result[0]['email'], $result[0]['note'], $result[0]['id']);
+
             return new Contact($result['name'], $result['phone'], $result['email'], $result['note'], $result['id']);
 
         } catch (Exception $e) {
